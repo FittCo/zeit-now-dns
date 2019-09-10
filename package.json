@@ -1,0 +1,6 @@
+{
+  "name": "now-dns",
+  "dependencies": {
+    "@zeit/integration-utils": "latest"
+  }
+}

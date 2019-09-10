@@ -1,0 +1,8 @@
+{
+  "name": "dns",
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "routes": [
+    { "src": "/domains/(?<domain>[^/]+)", "dest": "/domains.js?domain=$domain" }
+  ]
+}
